@@ -1,0 +1,16 @@
+Prime Number Validation Results
+==================================================
+
+Validation limit: 500000000
+Total known primes: 26355867
+
+Performance Metrics:
+  True Positives: 26355867
+  False Positives: 0
+  False Negatives: 0
+
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  Accuracy: 1.0000
+
