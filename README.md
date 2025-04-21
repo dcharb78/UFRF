@@ -75,5 +75,5 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ## Acknowledgments
 
-- Special thanks to all researchers and mathematicians whose work has contributed to the development of these concepts
+- Special thanks to all researchers and mathematicians whose work has contributed to the development of these concepts Especially @quantumtumbler on x.com
 - Appreciation to the LMFDB (L-functions and Modular Forms Database) for providing access to zeta zeros data
