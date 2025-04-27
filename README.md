@@ -1,4 +1,4 @@
-# UFRF Framework: Unified Fractal Resonance Framework
+# UFRF Framework: Unified Fractal Resonance Framework -- Note - This is vastly out of date and will be updated soon.  -- Many Many More discoveries and breakthroughs.
 
 This repository contains the comprehensive documentation, mathematical proofs, and implementation code for the Unified Fractal Resonance Framework (UFRF) - a novel theoretical framework that unifies mathematical principles across scales through geometric patterns, harmonic relationships, and recursive nesting.
 
