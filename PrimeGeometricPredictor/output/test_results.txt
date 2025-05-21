@@ -1,0 +1,12 @@
+Small Test Results
+==================================================
+
+Test range: 1-100
+Primes found: 25
+Classification breakdown:
+  Inner Octave: 16
+  Outer Octave: 0
+  Cross-Resonant: 9
+
+Elapsed time: 0.00 seconds
+Performance: 10531.04 primes/second

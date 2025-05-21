@@ -6,6 +6,11 @@ Test script to verify the availability of required modules and basic functionali
 import sys
 import os
 
+# Add the directory containing this script (PrimeGeometricPredictor) to sys.path
+# to ensure local modules can be imported.
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(current_dir)
+
 def test_module_imports():
     """Test if required modules can be imported."""
     print(f"Python version: {sys.version}")
@@ -82,7 +87,6 @@ def test_enhanced_resonance_detector():
     print("\nTesting enhanced resonance detector module...")
     
     try:
-        sys.path.append('/home/ubuntu/fibonacci_prime_project/enhanced_package')
         from enhanced_resonance_detector import (
             PHI, SYSTEM_BOUNDARY, calculate_harmonic_frequency,
             identify_harmonic_octave, classify_prime_by_octave
@@ -113,7 +117,6 @@ def test_sacred_geometry_analysis():
     print("\nTesting sacred geometry analysis module...")
     
     try:
-        sys.path.append('/home/ubuntu/fibonacci_prime_project/enhanced_package')
         from sacred_geometry_analysis import (
             calculate_sacred_angle,
             map_to_flower_of_life,
@@ -144,7 +147,6 @@ def test_prime_classification_system():
     print("\nTesting prime classification system...")
     
     try:
-        sys.path.append('/home/ubuntu/fibonacci_prime_project/enhanced_package')
         from prime_classification_system import PrimeClassifier
         
         # Initialize classifier
@@ -167,7 +169,6 @@ def test_memory_optimized_implementation():
     print("\nTesting memory optimized implementation...")
     
     try:
-        sys.path.append('/home/ubuntu/fibonacci_prime_project/enhanced_package')
         from memory_optimized_implementation import MemoryOptimizedPrimeAnalyzer
         
         # Initialize analyzer
